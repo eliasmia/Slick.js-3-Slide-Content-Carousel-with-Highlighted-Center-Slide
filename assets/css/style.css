@@ -1,0 +1,44 @@
+/*
+  Project: Simple Animated Number Counter JavaScript
+  Theme URL: http://eliasmia.com/
+  Author: Md Elias Mia
+  Author URI: http://eliasmia.com/
+  Description: HTML CSS JS
+  Version: 1.0
+*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.heroBanner .slick-slide {
+  margin: 0 20px;
+  outline: none;
+}
+.heroBanner .single-item{
+  position: relative;
+  overflow: hidden;
+  border-radius: 16px;
+}
+
+.heroBanner .single-item .slider-info {
+    transition: all 0.2s get-transition-type(5) 0s;
+    -o-transition: all 0.2s get-transition-type(5) 0s;
+    -moz-transition: all 0.2s get-transition-type(5) 0s;
+    -webkit-transition: all 0.2s get-transition-type(5) 0s;
+    border-radius: 10px;
+    padding: 10.5rem;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    color: #fff;
+}
+.heroBanner .single-item  .slider-images img{
+ width: 100%;
+}
